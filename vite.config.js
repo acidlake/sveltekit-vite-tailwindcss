@@ -5,10 +5,9 @@ export default {
 	resolve: {
 		alias: {
 			$components: resolve('src/app/components'),
-			$utils: resolve('src/app/utils'),
-			$pages: resolve('src/app/pages'),
-			$layout: resolve('src/app/layouts'),
-			$graphql: resolve('src/app/graphql')
+			$utils: resolve('src/app/_utils'),
+			$css: resolve('src/routes/main.css'),
+			$layouts: resolve('src/app/_layouts'),
 		},
 		build: {
 			sourceMap: false,

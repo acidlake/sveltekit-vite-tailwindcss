@@ -1,5 +1,8 @@
 <script>
-  import './main.css';
+  import '$css';
+  import MainLayout from "$layouts/main.svelte";
 </script>
 
-<slot/>
+<MainLayout>
+  <slot/>
+</MainLayout>

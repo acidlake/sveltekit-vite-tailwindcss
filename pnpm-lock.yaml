@@ -1,7 +1,8 @@
 devDependencies:
   '@sveltejs/adapter-node': 1.0.0-next.5
-  '@sveltejs/kit': 1.0.0-next.40_svelte@3.35.0+vite@2.0.5
+  '@sveltejs/kit': 1.0.0-next.43_svelte@3.35.0+vite@2.0.5
   autoprefixer: 10.2.5_postcss@8.2.8
+  dotenv: 8.2.0
   postcss: 8.2.8
   svelte: 3.35.0
   tailwindcss: 2.0.3_caf414ac65a978d0d57907a0ec9fb41e
@@ -29,7 +30,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-J8GTYQOHNtI3v/Kal4UUiPtHAn/2dqqNdDjo23I13NmefxnHWHYPIl+TbIIDu6FPFHcHw45CmtXth3uDt8sakQ==
-  /@sveltejs/kit/1.0.0-next.40_svelte@3.35.0+vite@2.0.5:
+  /@sveltejs/kit/1.0.0-next.43_svelte@3.35.0+vite@2.0.5:
     dependencies:
       '@sveltejs/vite-plugin-svelte': 1.0.0-next.2_svelte@3.35.0+vite@2.0.5
       '@svitejs/vite-plugin-svelte': 0.10.0_svelte@3.35.0+vite@2.0.5
@@ -43,7 +44,7 @@ packages:
       svelte: ^3.32.1
       vite: ^2.0.4
     resolution:
-      integrity: sha512-tZNqT3o1/EgmAoVPRPTySO8iEIMpenRYgcaUu6aYt//wgtTQWfcMC+VNVtNZeFA5rLiu48hginCM+AOmKa65LA==
+      integrity: sha512-7QYLk9thrCMgqXaqi4jVhbbkmk6ddkt5RaCVvIbwqKSNeJRPmfMvbgAoxIdrVMjTlgdW3lN/wHM87AebQ/5YoQ==
   /@sveltejs/vite-plugin-svelte/1.0.0-next.2_svelte@3.35.0+vite@2.0.5:
     dependencies:
       '@rollup/pluginutils': 4.1.0
@@ -299,6 +300,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-6S7f2tplN9SE1zwBcv0eugxJdv8=
+  /dotenv/8.2.0:
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
   /electron-to-chromium/1.3.685:
     dev: true
     resolution:
@@ -782,6 +789,7 @@ specifiers:
   '@sveltejs/adapter-node': next
   '@sveltejs/kit': next
   autoprefixer: ^10.2.5
+  dotenv: ^8.2.0
   postcss: ^8.2.8
   svelte: ^3.29.0
   tailwindcss: ^2.0.3

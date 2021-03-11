@@ -13,9 +13,7 @@
 		"postcss": "^8.2.8",
 		"svelte": "^3.29.0",
 		"tailwindcss": "^2.0.3",
-		"vite": "^2.0.4",
-		"graphql": "^15.5.0",
-		"graphql-helix": "^1.2.3"
+		"vite": "^2.0.4"
 	},
 	"type": "module",
 	"engines": {
